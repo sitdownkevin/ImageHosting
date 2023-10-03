@@ -1,9 +1,147 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T15:46:41.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="21.6.5" etag="utF6Hx2GY86FAXCrI1ZA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-03T15:58:49.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DgBSLKBj6on1x8FhzJKk" version="21.6.5" type="github">
   <diagram name="第 1 页" id="UYDKinWvIqmGs2-xWUVX">
-    <mxGraphModel>
+    <mxGraphModel dx="2087" dy="2052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VpqchyBaENkn2THpSNFP-2" value="Bob" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-3" value="Alice" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-4" target="VpqchyBaENkn2THpSNFP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-4" target="VpqchyBaENkn2THpSNFP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-4" value="keygen" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="225" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-5" value="public key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="175" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-6" value="private key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="225" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-9" target="VpqchyBaENkn2THpSNFP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-9" value="&lt;font face=&quot;Times New Roman&quot;&gt;This is Alice...&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="490" y="85" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-10" target="VpqchyBaENkn2THpSNFP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-10" value="encrypt" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-11" target="VpqchyBaENkn2THpSNFP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-11" value="public key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-14" value="&lt;font face=&quot;Times New Roman&quot;&gt;xjjeeinfefjeji...&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="565" y="-100" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-17" target="VpqchyBaENkn2THpSNFP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-17" value="&lt;font face=&quot;Times New Roman&quot;&gt;xjjeeinfefjeji...&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="170" y="85" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-19" target="VpqchyBaENkn2THpSNFP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-19" value="decrypt" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-21" target="VpqchyBaENkn2THpSNFP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-21" value="private key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-22" value="&lt;font face=&quot;Times New Roman&quot;&gt;This is Alice...&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="245" y="-100" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.497;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-23" target="VpqchyBaENkn2THpSNFP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-23" value="sign" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-25" target="VpqchyBaENkn2THpSNFP-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="370" />
+              <mxPoint x="320" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-25" value="&lt;font face=&quot;Times New Roman&quot;&gt;Bob loves Alice&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="370" />
+              <mxPoint x="320" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-26" value="private key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="305" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-29" value="&lt;font face=&quot;Times New Roman&quot;&gt;sk-xxxx...&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="245" y="460" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-32" target="VpqchyBaENkn2THpSNFP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-32" value="verify" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-34" target="VpqchyBaENkn2THpSNFP-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="370" />
+              <mxPoint x="640" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-34" value="&lt;font face=&quot;Times New Roman&quot;&gt;Bob loves Alice&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="490" y="290" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="370" />
+              <mxPoint x="640" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-36" value="public key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="660" y="305" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpqchyBaENkn2THpSNFP-37" target="VpqchyBaENkn2THpSNFP-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="370" />
+              <mxPoint x="640" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-37" value="&lt;font face=&quot;Times New Roman&quot;&gt;sk-xxxx...&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="760" y="290" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VpqchyBaENkn2THpSNFP-38" value="true / false" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="470" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
