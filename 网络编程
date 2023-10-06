@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T04:21:52.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.3" etag="hOgT4W8tI8GrrF9iK3vY" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T04:24:57.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ps_ai2gTbxIJXgZjtvvm" version="22.0.3" type="github">
   <diagram name="第 1 页" id="OaZs1iUUZlOyypPV_AGS">
-    <mxGraphModel>
+    <mxGraphModel dx="882" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-1" value="应用层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-2" value="传输层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-3" value="网络层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-4" value="链接层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-5" value="实体层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="400" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-6" value="传送0和1的电信号" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="405" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-7" value="IP协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ZYsQt8pgguXdxelKXDd-8" value="TCP协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="225" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
