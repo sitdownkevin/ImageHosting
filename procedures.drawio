@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T12:44:52.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="PCQ0Brc4oCP-ks7DAxly" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T12:07:09.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="MuNEApmhcQtdgFbRjp96" version="22.0.6" type="github">
   <diagram name="第 1 页" id="fbUBrH4WLsbyT03vCSBO">
-    <mxGraphModel dx="1838" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1371" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="l20layDVjoIPyv2NFqIs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="l20layDVjoIPyv2NFqIs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="260" width="680" height="500" as="geometry" />
         </mxCell>
         <mxCell id="G4seUUR9IQsw61A7sR9n-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontFamily=Times New Roman;" parent="1" source="G4seUUR9IQsw61A7sR9n-1" target="G4seUUR9IQsw61A7sR9n-3" edge="1">
@@ -50,6 +50,54 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="920" as="sourcePoint" />
             <mxPoint x="450" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="780" width="910" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;" edge="1" parent="1" source="ijCCfeU2WUEWrKWuLtlg-3" target="ijCCfeU2WUEWrKWuLtlg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-3" value="&lt;b&gt;&lt;font color=&quot;#4472c4&quot;&gt;IBD patients from MIMIC-IV based on ICD code (version 9)&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;labelBackgroundColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-4" value="&lt;b&gt;Final Cohort&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;fontColor=#4472C4;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1110" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-5" value="&lt;b&gt;Only include adult patients&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;fontColor=#4472C4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="910" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-6" value="&lt;b&gt;Only include patients whose data missing is less than 5%.&amp;nbsp;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;fontColor=#4472C4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1010" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-7" value="" style="endArrow=openThin;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;" edge="1" parent="1" target="ijCCfeU2WUEWrKWuLtlg-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="940" as="sourcePoint" />
+            <mxPoint x="460" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-8" value="" style="endArrow=openThin;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;" edge="1" parent="1" target="ijCCfeU2WUEWrKWuLtlg-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1039.5" as="sourcePoint" />
+            <mxPoint x="430" y="1039.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-9" value="&lt;b&gt;Training Goup&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;fontColor=#4472C4;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-10" value="&lt;b&gt;Tesing Group&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;fontColor=#4472C4;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1210" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-11" value="" style="endArrow=openThin;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;" edge="1" parent="1" source="ijCCfeU2WUEWrKWuLtlg-4" target="ijCCfeU2WUEWrKWuLtlg-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="1280" as="sourcePoint" />
+            <mxPoint x="460" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijCCfeU2WUEWrKWuLtlg-12" value="" style="endArrow=openThin;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fontSize=18;strokeColor=#4472c4;strokeWidth=3;" edge="1" parent="1" source="ijCCfeU2WUEWrKWuLtlg-4" target="ijCCfeU2WUEWrKWuLtlg-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1450" as="sourcePoint" />
+            <mxPoint x="440" y="1400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
